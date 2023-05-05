@@ -6,14 +6,17 @@ body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #fff url(../img/fundo.png) repeat-x top left; 
 }
+
 #container {
 	width: 750px;
 	margin: 0 auto;
-	border: 1px solid darkred;
+	
 
 }
+/**********************************************************
+******************************border: 1px solid darkred;
+formatação topo, logo e imagens superiores */
 #topo {
-	border: 1px solid darkred;
 	height: 150px;
 	padding-top: 25px;
 	background: url(../img/detalhe-topo.png) no-repeat right top;
@@ -23,4 +26,46 @@ body{
 	height: 66px;
 	background: url(../img/logo.png) no-repeat center;
 	text-indent: -3000px;
+}
+/***********************************************************
+ ***********************************************************
+ Formatação barra de navegação horizontal "menu"*/
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#topo ul {
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+#topo ul li {
+	float: left;
+}
+#topo ul a {
+	text-decoration: none;
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	color: #fff;
+	background: url(../img/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a {
+	background: none;
+}
+#topo ul a:hover {
+	color: #69001d;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
 }

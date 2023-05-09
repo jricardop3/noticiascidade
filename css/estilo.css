@@ -30,6 +30,13 @@ formatação topo, logo e imagens superiores */
 /***********************************************************
  ***********************************************************
  Formatação barra de navegação horizontal "menu"*/
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+a:hover {
+	color: #e50040;
+}
 ul {
 	margin: 0;
 	padding: 0;
@@ -172,8 +179,34 @@ img.imagem-principal {
  }
  .entrevista h3 {
  	background: #de003e;
- 	
  }
+/*************************************************************
+ ***** Formatação lista de notícias **/
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 64px;
+}
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+#lista-noticias li a {
+	text-decoration: none;
+}
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
 #container-rodape {
 	background: #294c71;
 	padding: 20px;
@@ -182,4 +215,5 @@ img.imagem-principal {
 	width:750px;
 	margin: 0 auto;
 	color: #fff;
+	text-align: center;
 }

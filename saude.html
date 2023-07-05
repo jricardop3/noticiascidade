@@ -6,7 +6,7 @@
 	<title>Noticias Cidade - Seu site de notícias</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
-<body class="saude">
+<body id="duas-colunas" class="saude">
 	<div id="container">
 		<div id="topo">
 			<h1 class="logo">Noticias cidade</h1>
@@ -20,6 +20,99 @@
 				<li><a id="fotos" href="fotos.html">Fotos</li></a>
 			</ul>
 		</div>
+		<div id="conteudo">
+			
+			<div id="primario">
+					<div class="caixa destaque"><!-- Inicio coluna central-conteudo primario -->
+						<h2>Destaques</h2>
+						<div class="caixa-conteudo">
+							<h3>Stevens-Johnson:</h3>
+							<img class="imagem-principal" src="img/carol.webp" width="100%">
+							<p>
+							"entenda qual é a doença de pele rara que deixou a mulher de Frank Aguiar na UTI..."
+							</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					
+					</div>
+					<div class="caixa"><!-- Inicio Lista de noticias -->
+						<h2>mundo</h2>
+						<div class="caixa-conteudo">
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/nitri.webp" width="80px">
+									<h3>"Nutricionista de Harvard</h3>
+									<p> revela o que comer pela manhã para emagrecer</p>
+								</a></li>
+							</ul>
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/doce.webp" width="80px">
+									<h3>"200 vezes mais doce que o açúcar</h3>
+									<p>  e descoberto por acaso: o que é e onde é usado o aspartame"</p>
+								</a></li>
+							</ul>
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/transplante.webp" width="80px">
+									<h3>"Jovem que</h3>
+									<p> recebeu o primeiro transplante de rosto e mãos do mundo diz ter 'segunda chance na vida"</p>
+								</a></li>
+							</ul>
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/fumo.webp" width="80px">
+									<h3>"Parar de fumar</h3>
+									<p> reduz a hipertensão em apenas 12 semanas"</p>
+								</a></li>
+							</ul>
+						</div>
+					</div><!-- Fim cLista de noticias -->
+				</div>
+			<!-- Fim coluna central-conteudo primario -->
+
+
+			<!-- inicio coluna lateral -->
+			<div id="lateral">
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li><a href="#">José Almeida</a></li>
+							<li><a href="#">Maria Luiza</a></li>
+							<li><a href="#">Renata Rodrigues</a></li>
+							<li><a href="#">Abelargo Silveira</a></li>
+							<li><a href="#">André Carlos</a></li>
+							<li><a href="#">Felipe Silva</a></li>
+							<li><a href="#">Simone Peixoto</a></li>
+							<li><a href="#">Rebecca Cardigan</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="caixa">
+					<h2>News</h2>
+					<div class="caixa-conteudo">
+						<form>
+							<div>
+								<label for="email">Email:</label>
+								<input type="text" name="email" id="email" placeholder="E-mail">
+							</div>
+							<div>
+								<input type="submit" value="Cadastrar" class="submit">
+							</div>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+			<!-- Fim coluna lateral -->
+		</div>
+	</div>
+	<div id="container-rodape" style="clear: both;">
+		<div id="rodape">
+			&copy; Todos os Direitos Reservados - <a href="http://spgweb.com.br">SPGWeb</a> By: Ricardo J. Peixoto
+		</div>
+
 	</div>
 </body>
 </html>

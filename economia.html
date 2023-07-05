@@ -6,7 +6,7 @@
 	<title>Noticias Cidade - Seu site de notícias</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
-<body class="economia">
+<body id="duas-colunas" class="economia">
 	<div id="container">
 		<div id="topo">
 			<h1 class="logo">Noticias cidade</h1>
@@ -20,6 +20,99 @@
 				<li><a id="fotos" href="fotos.html">Fotos</li></a>
 			</ul>
 		</div>
+		<div id="conteudo">
+			
+			<div id="primario">
+					<div class="caixa destaque"><!-- Inicio coluna central-conteudo primario -->
+						<h2>Destaques</h2>
+						<div class="caixa-conteudo">
+							<h3>Itaú eleva BR Partners</h3>
+							<img class="imagem-principal" src="img/br-partners.jpg" width="100%">
+							<p>
+							"Itaú eleva BR Partners para 'byu' com momentum positivo e valuation descontado..."
+							</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					
+					</div>
+					<div class="caixa"><!-- Inicio Lista de noticias -->
+						<h2>mundo</h2>
+						<div class="caixa-conteudo">
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/industria.jpg" width="80px">
+									<h3>"Produção industrial sobe</h3>
+									<p> 0,3% em maio, diz IBGE, dentro do esperado"</p>
+								</a></li>
+							</ul>
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/agro.jpg" width="80px">
+									<h3>"Puxada pelo agronegócio</h3>
+									<p> Apesar de salto de 30% no semestre, é outra petroleira que ‘rouba coração’ de analistas;"</p>
+								</a></li>
+							</ul>
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/petro.jpg" width="80px">
+									<h3>"Petrobras (PETR4):</h3>
+									<p> uma família de raposas há 25 anos com rolinhos de salsicha "</p>
+								</a></li>
+							</ul>
+							<ul id="lista-noticias">
+								<li><a href="#">
+									<img src="img/russia.jpg" width="80px">
+									<h3>"O poder militar</h3>
+									<p> da Rússia foi superestimado?"</p>
+								</a></li>
+							</ul>
+						</div>
+					</div><!-- Fim cLista de noticias -->
+				</div>
+			<!-- Fim coluna central-conteudo primario -->
+
+
+			<!-- inicio coluna lateral -->
+			<div id="lateral">
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li><a href="#">José Almeida</a></li>
+							<li><a href="#">Maria Luiza</a></li>
+							<li><a href="#">Renata Rodrigues</a></li>
+							<li><a href="#">Abelargo Silveira</a></li>
+							<li><a href="#">André Carlos</a></li>
+							<li><a href="#">Felipe Silva</a></li>
+							<li><a href="#">Simone Peixoto</a></li>
+							<li><a href="#">Rebecca Cardigan</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="caixa">
+					<h2>News</h2>
+					<div class="caixa-conteudo">
+						<form>
+							<div>
+								<label for="email">Email:</label>
+								<input type="text" name="email" id="email" placeholder="E-mail">
+							</div>
+							<div>
+								<input type="submit" value="Cadastrar" class="submit">
+							</div>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+			<!-- Fim coluna lateral -->
+		</div>
+	</div>
+	<div id="container-rodape" style="clear: both;">
+		<div id="rodape">
+			&copy; Todos os Direitos Reservados - <a href="http://spgweb.com.br">SPGWeb</a> By: Ricardo J. Peixoto
+		</div>
+
 	</div>
 </body>
 </html>
